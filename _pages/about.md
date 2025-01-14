@@ -8,7 +8,7 @@ redirect_from:
 
 ## Welcome to My Academic Homepage
 
-Welcome to my academic website. I am Satoshi Matsuzawa, an independent scholar. I specialize in economic development and economic history with an emphasis on Japanese economy and focus my research on development of the institution on the labor intermediaries in Japan, and its impact on growth. I am passionate about studying the instituitons that has the substantial long-run impact on growth leveraging multiple aspects, including theorecital and empirical microeconomics, macroeconomics, and economic history.
+Welcome to my academic website. I am Satoshi Matsuzawa, an independent scholar. I specialize in economic development and economic history, with an emphasis on the Japanese economy. My research focuses on the development of labor intermediary institutions in Japan and their impact on economic growth. I am passionate about studying institutions that have a substantial long-term impact on growth, leveraging multiple perspectives, including theoretical and empirical microeconomics, macroeconomics, and economic history.
 
 Feel free to explore my website, where you'll find information about my research, publications, and more. 
 
