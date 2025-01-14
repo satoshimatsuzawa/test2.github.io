@@ -1,49 +1,111 @@
----
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Welcome to Satoshi Matsuzawa's Academic Website"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+## Welcome to My Academic Homepage
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+Welcome to my academic website. I am Satoshi Matsuzawa, an independent scholar. I specialize in economic development and economic history with an emphasis on Japanese economy and focus my research on development of the institution on the labor intermediaries in Japan, and its impact on growth. I am passionate about studying the instituitons that has the substantial long-run impact on growth leveraging multiple aspects, including theorecital and empirical microeconomics, macroeconomics, and economic history.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+Feel free to explore my website, where you'll find information about my research, publications, and more. 
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+### Key Areas of Focus:
+- **[Research Topic #1]**: Short description.
+- **[Research Topic #2]**: Short description.
+- **[Research Topic #3]**: Short description.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+---
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+## Research Overview
 
-**Markdown generator**
+My research interests lie in the intersection of [area 1], [area 2], and [area 3]. Specifically, I am interested in [key questions or problems you're tackling in your research]. I collaborate with scholars at [institution, research groups] to push the boundaries of [specific research domain].
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+Some ongoing projects include:
+- **[Project Name]**: Description of the project and its goals.
+- **[Project Name]**: Description of the project and its goals.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+You can read more about my research in my [Publications] section.
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+---
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+## Publications
+
+Below is a list of my key publication:
+
+- **“Optimal Incentive Power for Inter-Team Competition”**: *Economics Letters, 2024* – [DOI: 10.1016/j.econlet.2024.111733](https://doi.org/10.1016/j.econlet.2024.111733)
+
+
+---
+
+## Teaching
+
+As a [Your Position], I teach undergraduate and graduate students in courses related to [field of study]. My teaching philosophy centers around [brief description of your approach to teaching, e.g., fostering critical thinking, encouraging collaborative work, etc.].
+
+### Courses Taught:
+- **[Course Name 1]**: Short description of the course.
+- **[Course Name 2]**: Short description of the course.
+
+Course materials can be accessed [here](link to materials or syllabus).
+
+---
+
+## Curriculum Vitae (CV)
+
+You can download my full CV in PDF format by clicking the link below:
+
+[Download CV](link to your CV)
+
+---
+
+## Contact Information
+
+You can contact me via email at [Your Email Address]. Feel free to reach out if you have questions about my research or if you're interested in collaborating.
+
+Follow me on:
+- [LinkedIn](link)
+- [Twitter](link)
+- [ResearchGate](link)
+- [ORCID](link)
+
+---
+
+## Site Configuration and Features
+
+This website is powered by the **[Academic Pages Template](https://github.com/academicpages/academicpages.github.io)**, a free GitHub Pages template designed for academic websites. The site is built using Jekyll, and content is managed through markdown files.
+
+---
+
+Feel free to explore my work and check back for updates!
+
+---
+
+**Note**: The above content assumes you're using markdown for your pages, as it's common in Jekyll-based templates like **Academic Pages**. You can edit the markdown files for each section (such as publications, talks, etc.) and fill them with your content. Additionally, you can modify the theme and styling to match your personal preferences using CSS.
+
+---
+
+### 2. **How to Structure and Update the Content in Markdown**
+
+Each section of the website (e.g., Research, Publications, CV) corresponds to a specific markdown file, and each of these files will have metadata (YAML front matter) that describes the content type. Here's a breakdown:
+
+- **Research**: Typically a markdown file under `_research` or `_projects`.
+- **Publications**: A markdown file under `_publications` for each publication.
+- **Talks**: Similarly, for talks under `_talks`.
+- **Blog Posts**: Markdown files under `_posts` if you have blog-style updates.
+- **CV**: A downloadable PDF link or another markdown file for CV summary.
+
+Each markdown file should include metadata and structured content. Here's an example of a markdown file for a publication:
+
+```markdown
+---
+title: "Understanding AI in Healthcare"
+authors: "John Doe, Jane Smith"
+publication_date: "2023-06-01"
+publication_type: "Journal"
+journal: "AI Journal"
+url: "https://linktothepaper.com"
+---
+
+This paper explores the application of AI in healthcare and its potential to transform patient care. You can read the full paper [here](https://linktothepaper.com).
