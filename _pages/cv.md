@@ -17,10 +17,10 @@ Education
 
 Work experience
 ======
-* Jan 2023 - Sep 2024: Senior Associate at Boston Consulting Group
+* From Jan 2023 to Sep 2024: Senior Associate at Boston Consulting Group
   * Boston Consulting Group 
 
-* Oct 2024 -: Consultant
+* From Oct 2024: Consultant
   * Boston Consulting Group
     
 Skills
