@@ -43,7 +43,7 @@ Below is a list of my key publication:
 
 You can download my full CV in PDF format by clicking the link below:
 
-[Download CV](link to your CV)
+[Download CV](https://satoshimatsuzawa.github.io/files/CV_Satoshi_Matsuzawa.pdf)
 
 ---
 
