@@ -60,15 +60,3 @@ Follow me on:
 ## Site Configuration and Features
 
 This website is powered by the **[Academic Pages Template](https://github.com/academicpages/academicpages.github.io)**, a free GitHub Pages template designed for academic websites. The site is built using Jekyll, and content is managed through markdown files.
-
----
-
-Feel free to explore my work and check back for updates!
-
----
-
-**Note**: The above content assumes you're using markdown for your pages, as it's common in Jekyll-based templates like **Academic Pages**. You can edit the markdown files for each section (such as publications, talks, etc.) and fill them with your content. Additionally, you can modify the theme and styling to match your personal preferences using CSS.
-
----
-
-This paper explores the application of AI in healthcare and its potential to transform patient care. You can read the full paper [here](https://linktothepaper.com).
